@@ -4,13 +4,13 @@ for line in f:
     age=line[110:114]
     weight=line[115:120]
     height=line[121:126]
-    print(age,' ',weight,'  ',height)
+    #print(age,' ',weight,'  ',height)
     bmi=float(weight)*100*100/(float(height)*float(height))
-    print(bmi)
+    #print(bmi)
     mydict[age]=bmi
 
-print('mydict is:')
-print(mydict.items())
+#print('mydict is:')
+#print(mydict.items())
 
 sumX=0
 for key in mydict:
